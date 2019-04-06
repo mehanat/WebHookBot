@@ -26,6 +26,8 @@ SECRET_KEY = 'jcp8ij#a4*0cu6r9(in1=b05$%mt_ktkpb0nf$d+%%z3fg9e4*'
 DEBUG = True
 
 ALLOWED_HOSTS = []
+PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
+STATIC_ROOT = os.path.join(PROJECT_ROOT, 'static')
 
 
 # Application definition
