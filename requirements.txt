@@ -1,2 +1,2 @@
 django==2.2
-telepot=6.7
+telepot==6.7
