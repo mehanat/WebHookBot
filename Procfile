@@ -1,1 +1,1 @@
-web: gunicorn mehanat-django-bot.wsgi -b 0.0.0.0:$PORT
+web: gunicorn DjangoTest.wsgi -b 0.0.0.0:$PORT
